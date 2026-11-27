@@ -1,0 +1,14 @@
+Gentoo's display-manager-init already installs real xdm and display-manager
+services. OpenRC rejects a virtual service with the same name, even when
+soniclogin is disabled.
+
+--- a/services/openrc/soniclogin.in
++++ b/services/openrc/soniclogin.in
+@@ -21,7 +21,6 @@ depend() {
+     before alsasound
+     want logind
+     use xfs
+-    provide xdm display-manager
+ }
+ 
+ start_pre() {

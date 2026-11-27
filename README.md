@@ -10,7 +10,7 @@ Put the following in `/etc/portage/repos.conf/sonicde.conf`:
 [sonicde]
 location = /var/db/repos/sonicde
 sync-type = git
-sync-uri = https://github.com/sonicde-gentoo/portage
+sync-uri = https://github.com/sonicde-gentoo/sonicde-gentoo
 ```
 
 Then sync:

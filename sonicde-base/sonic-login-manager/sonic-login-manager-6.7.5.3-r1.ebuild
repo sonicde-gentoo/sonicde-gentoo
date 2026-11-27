@@ -17,6 +17,8 @@ IUSE="s6 systemd test"
 REQUIRED_USE="?? ( s6 systemd )"
 RESTRICT="!test? ( test )"
 
+PATCHES=( "${FILESDIR}/openrc-drop-display-manager-provides.patch" )
+
 DEPEND="
 	>=dev-qt/qtbase-${QTMIN}:6[dbus,gui,network]
 	>=dev-qt/qtdeclarative-${QTMIN}:6

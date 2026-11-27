@@ -17,6 +17,8 @@ IUSE="s6 systemd test"
 REQUIRED_USE="?? ( s6 systemd )"
 RESTRICT="!test? ( test )"
 
+PATCHES=( "${FILESDIR}/openrc-drop-display-manager-provides.patch" )
+
 DEPEND="
 	>=virtual/zlib-1.2.9:=
 	>=sonicde-frameworks/sonic-frameworks-icon-themes-${KFMIN}:6

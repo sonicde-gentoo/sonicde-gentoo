@@ -30,6 +30,14 @@ overlay. In `/etc/portage/package.accept_keywords/00-sonicde`:
 
 Then emerge `sonicde-base/sonicde-meta` to install the desktop.
 
+## Installing applications
+
+Use `emerge --ask sonicde-base/sonicde-core-meta` to install the core
+applications, including Ecco and Sonic Terminal. The
+`sonicde-base/sonicde-apps-meta` package also selects application groups through
+USE flags. You can emerge individual groups such as
+`sonicde-base/sonicde-graphics-meta` or `sonicde-base/sonicde-utils-meta` directly.
+
 ## Using newer Plasma
 
 The latest Plasma with unstable keywords can also be used with SonicDE.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<upstream>
+		<bugs-to>https://github.com/sonicde-gentoo/sonicde-gentoo/issues</bugs-to>
+	</upstream>
+	<use>
+		<flag name="share">Enable file sharing actions in <pkg>sonicde-base/sonic-ecco</pkg></flag>
+		<flag name="webengine">Install KDE Help Center and a Qt WebEngine browser</flag>
+	</use>
+</pkgmetadata>

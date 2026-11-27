@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<upstream>
+		<bugs-to>https://github.com/sonicde-gentoo/sonicde-gentoo/issues</bugs-to>
+	</upstream>
+	<use>
+		<flag name="webengine">Enable packages requiring <pkg>dev-qt/qtwebengine</pkg></flag>
+	</use>
+</pkgmetadata>

@@ -8,6 +8,6 @@ HOMEPAGE="https://github.com/Sonic-DE/sonic-frameworks-io"
 LICENSE="metapackage"
 SLOT="6/6.30-sonicde"
 KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
-IUSE="acl +kwallet"
+IUSE="acl +handbook +kwallet"
 
-RDEPEND="~sonicde-frameworks/sonic-frameworks-io-${PV}:6[acl=,kwallet=]"
+RDEPEND="~sonicde-frameworks/sonic-frameworks-io-${PV}:6[acl=,handbook=,kwallet=]"

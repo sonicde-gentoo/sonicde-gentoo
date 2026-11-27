@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<upstream>
+		<bugs-to>https://github.com/sonicde-gentoo/sonicde-gentoo/issues</bugs-to>
+	</upstream>
+	<use>
+		<flag name="bittorrent">Pull in <pkg>net-p2p/ktorrent</pkg> for BitTorrent protocol support</flag>
+		<flag name="dropbox">Enable support for Dropbox in <pkg>kde-apps/dolphin</pkg> via <pkg>kde-apps/dolphin-plugins-dropbox</pkg></flag>
+		<flag name="samba">Enable support for <pkg>net-fs/samba</pkg> file sharing plugin from within file properties</flag>
+		<flag name="webengine">Install online account integration and <pkg>net-im/neochat</pkg></flag>
+		<flag name="zeroconf">Pull in packages using <pkg>kde-frameworks/kdnssd</pkg></flag>
+	</use>
+</pkgmetadata>

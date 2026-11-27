@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<upstream>
+		<bugs-to>https://github.com/sonicde-gentoo/sonicde-gentoo/issues</bugs-to>
+	</upstream>
+	<use>
+		<flag name="accessibility">Pull in <pkg>sonicde-base/sonicde-accessibility-meta</pkg> packages</flag>
+		<flag name="admin">Pull in <pkg>sonicde-base/sonicde-admin-meta</pkg> packages</flag>
+		<flag name="education">Pull in <pkg>sonicde-base/sonicde-education-meta</pkg> packages</flag>
+		<flag name="games">Pull in <pkg>sonicde-base/sonicde-games-meta</pkg> packages</flag>
+		<flag name="graphics">Pull in <pkg>sonicde-base/sonicde-graphics-meta</pkg> packages</flag>
+		<flag name="multimedia">Pull in <pkg>sonicde-base/sonicde-multimedia-meta</pkg> packages</flag>
+		<flag name="network">Pull in <pkg>sonicde-base/sonicde-network-meta</pkg> packages</flag>
+		<flag name="pim">Pull in <pkg>sonicde-base/sonicde-pim-meta</pkg> packages</flag>
+		<flag name="sdk">Pull in <pkg>sonicde-base/sonicde-sdk-meta</pkg> packages</flag>
+		<flag name="utils">Pull in <pkg>sonicde-base/sonicde-utils-meta</pkg> packages</flag>
+	</use>
+</pkgmetadata>

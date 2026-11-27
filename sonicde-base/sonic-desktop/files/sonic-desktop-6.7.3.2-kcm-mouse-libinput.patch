@@ -1,6 +1,6 @@
 Add a missing dependency on libinput to the mouse KCM.
 
-See: https://github.com/sonicde-gentoo/portage/issues/15
+See: https://github.com/sonicde-gentoo/sonicde-gentoo/issues/15
 
 diff --git a/kcms/mouse/backends/CMakeLists.txt b/kcms/mouse/backends/CMakeLists.txt
 --- a/kcms/mouse/backends/CMakeLists.txt
